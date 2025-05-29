@@ -6,6 +6,7 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+theme = "hyde"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -14,3 +15,7 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+hyde_links = [
+    {url = "https://google.com", name = "Google.com"},
+    {url = "https://google.fr", name = "Google.fr"},
+]
